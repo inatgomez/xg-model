@@ -1,0 +1,8 @@
+# Data parquet files
+/data/*.parquet
+
+# Python cache files
+__pycache__/
+
+# Virtual environment
+.venv/
