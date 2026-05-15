@@ -212,3 +212,4 @@ assert shots_out_v2.loc[
     "defenders_in_lane"
 ].between(0, 11).all()
 
+shots_out_v2.to_parquet(OUTPUT_PATH_V2, index=False)
